@@ -181,7 +181,7 @@ function woocommerce_payme()
             $lang = isset($lang_codes[get_locale()]) ? $lang_codes[get_locale()] : 'en';
 
             $label_pay = __('Pay', 'payme');
-            $ulr_img = plugin_dir_url( __DIR__ ) . 'Woocommerce-payme-payment-gateway-master/assets/payme.png';
+            $ulr_img = plugin_dir_url( __DIR__ ) . 'payme_woocommerce_plugin-main/assets/payme.png';
             $label_cancel = __('Cancel payment and return back', 'payme');
 	    $callbackUrl=$this->return_url.'/'.$order_id.'/?key='.$order->get_order_key();	
 

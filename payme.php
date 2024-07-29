@@ -195,7 +195,7 @@ function woocommerce_payme()
 <input type="hidden" name="description" value="$description">
 <div style="display: flex;justify-content: center;align-items: center;">
 <img src="{$ulr_img}" alt="payme">
-<input type="submit" class="button alt" style="width: 20%;    background: #48b7ac;" id="submit_payme_form" value="$label_pay">
+<input type="submit" class="button alt" style="width: 20%;    background: #48b7ac !important;" id="submit_payme_form" value="$label_pay">
 </div>
 
 <a class="button cancel" style="background: none;
